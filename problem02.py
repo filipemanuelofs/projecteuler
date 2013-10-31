@@ -10,7 +10,7 @@ find the sum of the even-valued terms.
 """
 
 a, b, s = 1, 0, 0
-while a < 40:
+while a < 4000000:
     a, b = a+b, a
     if a % 2 == 0:
         s += a
